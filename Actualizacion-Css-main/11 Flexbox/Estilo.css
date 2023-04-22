@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+body{
+    text-align: center;
+    color: white;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.Ejemplo1{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+  
+ 
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: red;
+}
+
+
+.Ejemplo2{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+
+.Ejemplo3{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.Ejemplo4{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+ 
+}
+
+.Ejemplo5{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+ 
+}
+
+.Ejemplo6{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+ 
+}
+
+.Ejemplo7{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.Ejemplo8{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+.Ejemplo9{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Ejemplo10{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Ejemplo11{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.Ejemplo12{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ejemplo13{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.Ejemplo14{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Ejemplo15{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    align-items: stretch;
+}
+
+
+.Ejemplo16{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.Ejemplo17{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Ejemplo18{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    align-items: center;
+}
+
+.Ejemplo19{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    align-items: baseline;
+}
+
+.Ejemplo20{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

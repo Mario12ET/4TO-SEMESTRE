@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  width: 100px;
+  height: 100px;
+  border: 2px solid yellow;
+  background: red;
+  margin: 10px;
+}
+#color2{
+  text-align: Center;
+  background: deepskyblue;
+  color: blue;
+  border: 2px dashed green;
+}
+
+.color3{
+  text-align: Center;
+  background:#FF0037 ;
+  color: #FF00A2;
+  border: 2px dashed ;
+}
+#color4{
+  text-align: Center;
+  background: #F0F;
+  color: #F1A;
+  border: 2px dashed #F8B;
+}
+#color5{
+  text-align: Center;
+  background: rgb(10, 20, 255);
+  color: rgb(5, 10, 120);
+  border: 2px dashed rgb(2, 5, 50);
+}
+#color6 {
+  text-align: Center;
+  background: rgb(30%, 50%, 90%);
+  color: rgb(43%, 60%, 54%);
+  border: 2px dashed rgb(10%, 23%, 54%);
+}
+#color7 {
+  text-align: Center;
+  background: linear-gradient(blue,green);
+  color: blue;
+  border: 2px dashed green;
+}
+#color8 {
+  text-align: Center;
+  background: rgba(10, 20, 30, 0.7);
+  color: blue;
+  border: 2px dashed green;
+}
+#color9 {
+  text-align: Center;
+  background: linear-gradient(to right,red,yellow);
+  color: blue;
+  border: 2px dashed green;
+}
+#color10 {
+  text-align: Center;
+  background: linear-gradient(180deg,red,orange,yellow,green,blue,indigo,violet);
+  color: blue;
+  border: 2px dashed green;
+}
+ body{  
+background: linear-gradient(to right,red,yellow);
+   
+ }
+ h1{
+   background: linear-gradient(blue,green);
+   -webkit-background-clip: text;
+   color:transparent;
+ }
