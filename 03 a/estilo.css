@@ -1,0 +1,22 @@
+*{
+    margin:0;
+padding:0px;
+  }
+  body{
+    background:orange;
+  }
+  h1{
+  color:orange;
+  
+  }
+  
+  button{
+    height:1000px;
+    width: 1000px;
+  }
+  
+  jpg{
+    height:1000px;
+    width:1000px;
+  }
+  

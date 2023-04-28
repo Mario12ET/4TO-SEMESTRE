@@ -1,0 +1,13 @@
+*{
+
+margin:0px; padding: 0px;
+
+}
+
+div#res{
+
+width: 500px; height: 500px; background: black; }
+
+.cajita{
+
+display: inline-block; background: red; margin:5px; }

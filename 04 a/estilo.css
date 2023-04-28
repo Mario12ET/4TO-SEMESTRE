@@ -1,0 +1,23 @@
+*{
+    margin:0;
+padding:0px;
+  }
+  body{
+    background:green;
+  }
+  h1{
+  color:orange;
+  
+  }
+  
+  button{
+    height:100px;
+    width: 100px;
+  }
+  
+  jpg{
+    height:100px;
+    width:100px;
+  }
+  
+  
