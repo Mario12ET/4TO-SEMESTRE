@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chicharronera</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="update();">
+	<h1>Chicharronera</h1>
+	<img src="images.png" alt="Imagen de ejemplo" width="400">
+     <br>
+     <br>
+	<label>a:</label>
+	<input type="range" id="a" min="-10" max="10" value="0" oninput="update()">
+	<label id="aLabel"></label>
+	<br>
+	<label>b:</label>
+	<input type="range" id="b" min="-10" max="10" value="0" oninput="update()">
+	<label id="bLabel"></label>
+	<br>
+	<label>c:</label>
+	<input type="range" id="c" min="-10" max="10" value="0" oninput="update()">
+	<label id="cLabel"></label>
+	<br>
+	<label>Ecuacion:</label>
+	<p id="ecuacion">0x^2 + 0x + 0 = 0</p>
+	<label>Resultado 1:</label>
+	<label id="resultado1">0</label>
+	<br>
+	<label>Resultado 2:</label>
+	<label id="resultado2">0</label>
+	
+</head>
+<script src="app.js">app.js</script>
+</body>
